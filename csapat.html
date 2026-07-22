@@ -69,6 +69,29 @@
         .contact-info { list-style: none; margin-top: 15px; }
         .contact-info li { font-size: 11pt; margin-bottom: 10px; }
         footer { text-align: center; margin-top: 40px; font-size: 10pt; color: #64748b; }
+.gomb-menü {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 15px;
+  }
+
+  .gomb {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+  }
+
+  .gomb:hover {
+    background-color: #0056b3;
+  }
     </style>
 </head>
 <body>
@@ -78,19 +101,19 @@
             <h1 style="margin-bottom: -10px; text-align: left">ÚESZJFE - Országos Jogvédő Kabinet</h1>
             <h4 style="margin-bottom: 10px; text-align: left">„Elkötelezett védelem az első lépéstől a győzelemig.”</h4>
             <p style="margin-top: 0px; text-align: left">Adószám: 19343211-1-05</p>
-            <p><button onclick="document.location='index.html'"><h3 style="margin-bottom: 0px; text-align: left"><img src="kezdolap.png"></button>
-            <button onclick="document.location='rolunk.html'"><h3 style="margin-bottom: 0px; text-align: left"><img src="rolunk.png"></button>
-            <button onclick="document.location='szolgaltatasok.html'"><h3 style="margin-bottom: 0px; text-align: left"><img src="szolgaltatasok.png"></button>
-            <button onclick="document.location='referenciak.html'"><h3 style="margin-bottom: 0px; text-align: left"><img src="referenciak.png"></button>
-            <button onclick="document.location='csapat.html'"><h3 style="margin-bottom: 0px; text-align: left"><img src="csapat.png"></button>
-            <button onclick="document.location='dokumentumok.html'"><h3 style="margin-bottom: 0px; text-align: left"><img src="dokumentumok.png"></button>
-            <button onclick="document.location='kapcsolat.html'"><h3 style="margin-bottom: 0px; text-align: left"><img src="kapcsolat.png"></button>
+<nav class="gomb-menü">
+  <a href="index.html" class="gomb">Kezdőlap</a>
+  <a href="rolunk.html" class="gomb">Rólunk</a>
+  <a href="szolgaltatasok.html" class="gomb">Szolgáltatások</a>
+  <a href="referenciak.html" class="gomb">Referenciák</a>
+  <a href="csapat.html" class="gomb">Csapat</a>
+  <a href="dokumentumok.html" class="gomb">Dokumentumok</a>
+  <a href="hirek.html" class="gomb">Hírek</a>
+  <a href="tamogatas.html" class="gomb">Támogatás</a>
+  <a href="kapcsolat.html" class="gomb">Kapcsolat</a>
+</nav>
         </header>
         <section id="rolam">
-             <p>
-             <button onclick="document.location='hirek.html'"><h3>Hírek</h3></button>
-             <button onclick="document.location='tamogatas.html'"><h3>Támogatás</h3></button>
-             </p>
             <h2>Csapat</h2>
             <p><b>Az Út Egy Szebb Jövő Felé Egyesület – Országos Jogvédő Kabinet egy elhivatott és szakmailag elkötelezett csapatból áll, tagjaink pedig megalkuvást nem tűrve dolgoznak az igazságosság és a jogbiztonság megteremtésért.</b></p>
             <h1 style="margin-bottom: 0px; text-align: left">Bagoly Tamás</h1>
