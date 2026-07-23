@@ -26,10 +26,10 @@
             padding: 20px;
         }
         header {
-            background-color: #1e3a8a;
+            background-color: #ece0c8;
             color: #ffffff;
             text-align: center;
-            padding: 40px 20px;
+            padding: 0px 0px;
             border-radius: 8px;
             margin-bottom: 30px;
         }
@@ -92,15 +92,26 @@
   .gomb:hover {
     background-color: #0056b3;
   }
+
+<style>
+    .kep-doboz {
+        max-width: 600px; /* A doboz maximális szélessége */
+        margin: 0 auto;   /* Középre igazítás */
+    }
+    
+    .kep-doboz img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+</style>
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-        <img src="logo1.jpg" style="float: right; margin-left: 15px; margin-bottom: 15px;"><img src="logo2.jpg" style="float: right; margin-left: 15px; margin-bottom: 15px;">
-            <h1 style="margin-bottom: -10px; text-align: left">ÚESZJFE - Országos Jogvédő Kabinet</h1>
-            <h4 style="margin-bottom: 10px; text-align: left">„Elkötelezett védelem az első lépéstől a győzelemig.”</h4>
-            <p style="margin-top: 0px; text-align: left">Adószám: 19343211-1-05</p>
+        <div class="kep-doboz">
+    <img src="banner.png" alt="A kép leírása">
 <nav class="gomb-menü">
   <a href="index.html" class="gomb">Kezdőlap</a>
   <a href="rolunk.html" class="gomb">Rólunk</a>
@@ -112,6 +123,7 @@
   <a href="tamogatas.html" class="gomb">Támogatás</a>
   <a href="kapcsolat.html" class="gomb">Kapcsolat</a>
 </nav>
+</div>
         </header>
          <section id="szolgaltatasok">
             <h2>Dokumentumok</h2>
